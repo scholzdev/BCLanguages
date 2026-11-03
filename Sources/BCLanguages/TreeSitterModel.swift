@@ -1,6 +1,6 @@
 //
 //  TreeSitterModel.swift
-//  CodeEditTextView/CodeLanguage
+//  BCTextView/CodeLanguage
 //
 //  Created by Lukas Pistrol on 25.05.22.
 //

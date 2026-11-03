@@ -95,9 +95,9 @@ extern TSLanguage *tree_sitter_{lang}();
 #endif // TREE_SITTER_{LANG}_H_
 ```
 
-## Add it to CodeEditLanguages
+## Add it to BCLanguages
 
-In order to add a language to ``CodeEditLanguages`` you need to open the `.xcodeproj` file located inside `CodeLanguage-Container`.
+In order to add a language to ``BCLanguages`` you need to open the `.xcodeproj` file located inside `CodeLanguage-Container`.
 
 ![.xcodeproj location](xcodeproj-location)
 
@@ -133,7 +133,7 @@ In order to add a language to ``CodeEditLanguages`` you need to open the `.xcode
 
 ## Add it to CodeLanguage
 
-Now move over to the `Sources/CodeEditLanguages` folder where 3 files need to be updated.
+Now move over to the `Sources/BCLanguages` folder where 3 files need to be updated.
 
 ### TreeSitterLanguage.swift
 
@@ -214,11 +214,11 @@ When everything is working correctly push your `tree-sitter-{lang}` changes to `
 
 > Tip: Take [this PR description](https://github.com/tree-sitter/tree-sitter-javascript/pull/223) as a template and cross-reference it with your Pull Request.
 
-Now you can remove the local dependencies and replace it with the actual package URLs and submit a Pull Request for `CodeEditTextView`.
+Now you can remove the local dependencies and replace it with the actual package URLs and submit a Pull Request for `BCTextView`.
 
 ## Unit Tests
 
-Also make sure to add test cases for your new language in `Tests/CodeEditLanguagesTests`.
+Also make sure to add test cases for your new language in `Tests/BCLanguagesTests`.
 
 ### Example
 

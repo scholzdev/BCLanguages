@@ -1,12 +1,12 @@
 //
 //  LanguageDetectionTests.swift
-//  CodeEditLanguages
+//  BCLanguages
 //
 //  Created by Khan Winter on 6/17/23.
 //
 
 import XCTest
-@testable import CodeEditLanguages
+@testable import BCLanguages
 import RegexBuilder
 
 // swiftlint:disable all
@@ -23,7 +23,7 @@ final class LanguageDetectionTests: XCTestCase {
 
         let invalidCases = [
             "1234",
-            "import CodeEditLanguages",
+            "import BCLanguages",
             "",
             "\n",
             "# This is a regular comment",
@@ -65,7 +65,7 @@ final class LanguageDetectionTests: XCTestCase {
             "/* vim",
             "/* this is also a normal comment */",
             "1234",
-            "import CodeEditLanguages",
+            "import BCLanguages",
             "",
             "\n"
         ]
@@ -96,7 +96,7 @@ final class LanguageDetectionTests: XCTestCase {
 
         let invalidCases = [
             "1234",
-            "import CodeEditLanguages",
+            "import BCLanguages",
             "",
             "\n",
             "-*-",

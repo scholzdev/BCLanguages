@@ -1,4 +1,4 @@
-# ``CodeEditLanguages/TreeSitterModel``
+# ``BCLanguages/TreeSitterModel``
 
 ## Overview
 

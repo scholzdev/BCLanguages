@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CodeEditLanguages_CodeEditLanguages"
-               BuildableName = "CodeEditLanguages_CodeEditLanguages"
-               BlueprintName = "CodeEditLanguages_CodeEditLanguages"
+               BlueprintIdentifier = "BCLanguages_BCLanguages"
+               BuildableName = "BCLanguages_BCLanguages"
+               BlueprintName = "BCLanguages_BCLanguages"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CodeEditLanguages"
-               BuildableName = "CodeEditLanguages"
-               BlueprintName = "CodeEditLanguages"
+               BlueprintIdentifier = "BCLanguages"
+               BuildableName = "BCLanguages"
+               BlueprintName = "BCLanguages"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CodeEditLanguagesTests"
-               BuildableName = "CodeEditLanguagesTests"
-               BlueprintName = "CodeEditLanguagesTests"
+               BlueprintIdentifier = "BCLanguagesTests"
+               BuildableName = "BCLanguagesTests"
+               BlueprintName = "BCLanguagesTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -60,9 +60,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CodeEditLanguagesTests"
-               BuildableName = "CodeEditLanguagesTests"
-               BlueprintName = "CodeEditLanguagesTests"
+               BlueprintIdentifier = "BCLanguagesTests"
+               BuildableName = "BCLanguagesTests"
+               BlueprintName = "BCLanguagesTests"
                ReferencedContainer = "container:">
             </BuildableReference>
          </TestableReference>
@@ -88,9 +88,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CodeEditLanguages_CodeEditLanguages"
-            BuildableName = "CodeEditLanguages_CodeEditLanguages"
-            BlueprintName = "CodeEditLanguages_CodeEditLanguages"
+            BlueprintIdentifier = "BCLanguages_BCLanguages"
+            BuildableName = "BCLanguages_BCLanguages"
+            BlueprintName = "BCLanguages_BCLanguages"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

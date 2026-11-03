@@ -1,10 +1,13 @@
+> [!NOTE]
+> **BCLanguages is a fork of [CodeEditLanguages](https://github.com/CodeEditApp/CodeEditLanguages)** 0.1.20, maintained for [b-code](https://github.com/scholzdev/b-code). The upstream repository has no license file; this fork changes names only. Badges and links below are upstream's.
+
 <p align="center">
-  <img src="https://github.com/CodeEditApp/CodeEditLanguages/assets/806104/a0ba0924-ed56-483d-b29e-a19134738d7e" height="128" alt="CodeEditLanguages Icon">
-  <h1 align="center">CodeEditLanguages</h1>
+  <img src="https://github.com/CodeEditApp/CodeEditLanguages/assets/806104/a0ba0924-ed56-483d-b29e-a19134738d7e" height="128" alt="BCLanguages Icon">
+  <h1 align="center">BCLanguages</h1>
 </p>
 
 <p align="center">
-  <a aria-label="Follow CodeEdit on Twitter" href="https://twitter.com/CodeEditApp" target="_blank">
+  <a aria-label="Follow b-code on Twitter" href="https://twitter.com/CodeEditApp" target="_blank">
     <img alt="" src="https://img.shields.io/badge/Follow%20@CodeEditApp-black.svg?style=for-the-badge&logo=Twitter">
   </a>
   <a aria-label="Join the community on Discord" href="https://discord.gg/vChUXVf9Em" target="_blank">
@@ -39,9 +42,9 @@ The documentation including a guide on how to add support for new languages can 
 
 ## Supported Languages
 
-There are several [language grammars](https://tree-sitter.github.io/tree-sitter/#available-parsers) available for [tree-sitter](https://tree-sitter.github.io/tree-sitter/). Many of them are already supported in `CodeEditLanguages`. In order to use **syntax-highlighting** with those grammars, they need to supply a `highlights.scm` file. Grammars for which this file does not exist yet, are marked with _`not available`_ below. This file has to be added to the grammar's repo directly.
+There are several [language grammars](https://tree-sitter.github.io/tree-sitter/#available-parsers) available for [tree-sitter](https://tree-sitter.github.io/tree-sitter/). Many of them are already supported in `BCLanguages`. In order to use **syntax-highlighting** with those grammars, they need to supply a `highlights.scm` file. Grammars for which this file does not exist yet, are marked with _`not available`_ below. This file has to be added to the grammar's repo directly.
 
-In order to add support for additional languages we have a complete guide on how to implement them in `CodeEditLanguages` available [here](https://codeeditapp.github.io/CodeEditLanguages/documentation/codeeditlanguages/add-languages/).
+In order to add support for additional languages we have a complete guide on how to implement them in `BCLanguages` available [here](https://codeeditapp.github.io/CodeEditLanguages/documentation/codeeditlanguages/add-languages/).
 
 > If you want to add support for another language, please file an [issue](https://github.com/CodeEditApp/CodeEditLanguages/issues/new/choose) first, so everyone knows that this is in progress.
 
@@ -93,19 +96,19 @@ In order to add support for additional languages we have a complete guide on how
     <td align="center">
       <a href="https://github.com/CodeEditApp/CodeEdit">
         <img src="https://github.com/CodeEditApp/CodeEdit/blob/main/.github/CodeEdit-Icon-128@2x.png?raw=true" width="128" height="128">
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CodeEdit&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b-code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/CodeEditApp/CodeEditSourceEditor">
         <img src="https://github.com/CodeEditApp/CodeEditSourceEditor/blob/main/.github/CodeEditSourceEditor-Icon-128@2x.png?raw=true" width="128" height="128">
-        <p>CodeEditSourceEditor</p>
+        <p>BCSourceEditor</p>
       </a>
     </td>
     <td align="center">
       <a href="https://github.com/CodeEditApp/CodeEditSourceEditor">
         <img src="https://github.com/CodeEditApp/CodeEditTextView/blob/main/.github/CodeEditTextView-Icon-128@2x.png?raw=true" width="128" height="128">
-        <p>CodeEditTextView</p>
+        <p>BCTextView</p>
       </a>
     </td>
     <td align="center">

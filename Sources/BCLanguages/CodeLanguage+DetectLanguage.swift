@@ -1,6 +1,6 @@
 //
 //  CodeLanguage+DetectLanguage.swift
-//  CodeEditLanguages
+//  BCLanguages
 //
 //  Created by Khan Winter on 6/17/23.
 //

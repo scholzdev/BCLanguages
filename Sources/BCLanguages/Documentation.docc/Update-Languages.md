@@ -25,7 +25,7 @@ From time to time the `tree-sitter` languages need to be updated to their latest
 
 1. Open your terminal and set your working directory
    ```bash
-   $ cd path/to/CodeEditLanguages
+   $ cd path/to/BCLanguages
    ```
 
 2. Run the `build_framework.sh` script
@@ -48,6 +48,6 @@ From time to time the `tree-sitter` languages need to be updated to their latest
 
 ## Check if everything still works
 
-1. Open the ``CodeEditLanguages`` Package in Xcode and run the included unit tests.
+1. Open the ``BCLanguages`` Package in Xcode and run the included unit tests.
 
 2. Once all the tests succeeded, the changes can be committed, pushed and a pull request can be opened.

@@ -1,10 +1,10 @@
-# ``CodeEditLanguages``
+# ``BCLanguages``
 
 A collection of `tree-sitter` languages for syntax highlighting.
 
 ## Overview
 
-![logo](codeeditlanguages-logo)
+![logo](bclanguages-logo)
 
 This package includes a binary framework `CodeLanguagesContainer.xcframework` which bundles all `tree-sitter` languages in a single binary to greatly reduce SPM package resolution times.
 
@@ -23,12 +23,12 @@ This package heavily depends on [SwiftTreeSitter](https://github.com/ChimeHQ/Swi
 
 ### Structs
 
-- ``CodeEditLanguages/CodeLanguage``
+- ``BCLanguages/CodeLanguage``
 
 ### Classes
 
-- ``CodeEditLanguages/TreeSitterModel``
+- ``BCLanguages/TreeSitterModel``
 
 ### Enums
 
-- ``CodeEditLanguages/TreeSitterLanguage``
+- ``BCLanguages/TreeSitterLanguage``

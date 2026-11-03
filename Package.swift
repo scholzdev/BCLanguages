@@ -4,12 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "CodeEditLanguages",
+    name: "BCLanguages",
     platforms: [.macOS(.v13)],
     products: [
         .library(
-            name: "CodeEditLanguages",
-            targets: ["CodeEditLanguages"]
+            name: "BCLanguages",
+            targets: ["BCLanguages"]
         ),
     ],
     dependencies: [
@@ -20,7 +20,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "CodeEditLanguages",
+            name: "BCLanguages",
             dependencies: ["CodeLanguagesContainer", "SwiftTreeSitter"],
             resources: [
                 .copy("Resources")
@@ -34,8 +34,8 @@ let package = Package(
         ),
 
         .testTarget(
-            name: "CodeEditLanguagesTests",
-            dependencies: ["CodeEditLanguages"]
+            name: "BCLanguagesTests",
+            dependencies: ["BCLanguages"]
         ),
     ]
 )

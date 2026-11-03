@@ -1,15 +1,15 @@
 //
-//  CodeEditLanguages_Tests.swift
+//  BCLanguages_Tests.swift
 //  
 //
 //  Created by Lukas Pistrol on 28.10.22.
 //
 
 import XCTest
-@testable import CodeEditLanguages
+@testable import BCLanguages
 import SwiftTreeSitter
 
-final class CodeEditLanguagesTests: XCTestCase {
+final class BCLanguagesTests: XCTestCase {
 
     let bundleURL = Bundle.module.resourceURL
 
