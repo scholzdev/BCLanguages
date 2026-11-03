@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "BCLanguages",
-    platforms: [.macOS(.v13)],
+    platforms: [.macOS("27.0")],
     products: [
         .library(
             name: "BCLanguages",
